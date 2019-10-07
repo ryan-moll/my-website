@@ -1,190 +1,204 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Ryan Moll</title>
+<title>Ryan Moll</title>
 
-    <link rel="icon" href="./Favicon.ico" type="image">
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="A simple online resume for Ryan Moll."/>
+<meta charset="UTF-8">
+<!-- Code has been modified from original version. That code can be found courtesy of Thomas Hardy at: http://www.thomashardy.me.uk/free-responsive-html-css3-cv-template-->
 
-    <!--Custom fonts-->
-    <script src="https://use.fontawesome.com/3a3534ec70.js"></script>
+<link type="text/css" rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
 
-    <!--Bootstrap cdn-->
-    <!--Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-    <!-- Compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-
-    <!--Bootstrap setup-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--Custom style sheet-->
-    <link rel="stylesheet" href="./static/css/index.css">
-    <link rel="stylesheet" href="./static/css/normalize.css">
-
-    <style>
-        /* width */
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
-        /* Track */
-        ::-webkit-scrollbar-track {
-            background: #f1f1f1;
-        }
-        /* Handle */
-        ::-webkit-scrollbar-thumb {
-            background: #888;
-        }
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555;
-        }
-    </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
-<body style="background-color:#218c74;">
+<body id="top">
+<div id="cv">
+	<div class="mainDetails">
+		<div id="headshot">
+			<img src="headshot.jpg" alt="Ryan Moll" />
+		</div>
 
-    <h1 style="height:100%" class="display-3">Ryan Moll</h1>
-    <!--header-->
-    <header>
-        <div class="container-fluid header">
-            <div class="col-lg-12">
-                <ul class="list-unstyled top-list">
-                    <li>
-                        <i class="fa fa-file-text-o fa-fw"></i>
-                        <a href="./Resume.pdf" class="top-link"> Resume PDF </a>
-                    </li>
-                    <li>
-                        <i class="fa fa-phone fa-fw"></i>
-                        <a href="tel:503-616-8873" class="top-link"> (503) 616-8873 </a>
-                    </li>
-                    <li>
-                        <i class="fa fa-envelope-o fa-fw"></i>
-                        <a href="mailto:rmoll16@gmail.com" class="top-link"> rmoll16@gmail.com </a>
-                    </li>
-                    <li>
-                        <i class="fa fa-linkedin fa-fw"></i>
-                        <a href="https://linkedin.com/in/ryan-moll" class="top-link"> linkedin.com/in/ryan-moll </a>
-                    </li>
-                    <li>
-                        <i class="fa fa-github fa-fw"></i>
-                        <a href="https://github.com/ryan-moll" class="top-link"> github.com/ryan-moll </a>
-                    </li>
-                </ul>
+		<div id="name">
+			<h1>Ryan Moll</h1>
+			<h2>Student</h2>
+		</div>
+
+		<div id="contactDetails">
+			<ul>
+				<li>email: <a href="mailto:rmoll@uoregon.edu" target="_blank">rmoll@uoregon.edu</a></li>
+				<li>mobile: <a href="tel:503-616-8873"></a>(503)616-8873</li>
+				<li>linkedin: <a href="https://linkedin.com/in/ryan-moll/">ryan-moll</a></li>
+        <li>github: <a href="https://github.com/ryan-moll/">ryan-moll</a></li>
+        <li>resume: <a href="./Resume.pdf">pdf</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="mainArea">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+
+				<div class="sectionContent">
+					<p>Current undergraduate student at University of Oregon. Passionate about developing code and all things computers. When I'm not coding I love to rock climb, read, and play guitar.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>CDK Global</h2>
+					<p class="subDetails">Summer 2019</p>
+					<p>Developed a program in Python to automate the phone installation process for the install engineers saving significant man hours.  </p>
+				</article>
+			</div>
+			<div class="sectionContent">
+				<article>
+					<h2>BlueVolt: Learning Management Solutions</h2>
+					<p class="subDetails">Summer 2016/Summer 2018</p>
+					<p>Interned for two summers on the development team for BlueVolt. I did a variety of projects, including writing code for the codebase in C#, HTML, and SQL.</p>
+				</article>
+			</div>
+			<div class="sectionContent">
+				<article>
+					<h2>Nike Comapany Store</h2>
+					<p class="subDetails">Summer 2017/Winter 2017</p>
+					<p>Worked as a retail employee at the highest volume Nike store in the US. I was responsible for assisting customers, providing product knowledge, and organizational tasks such as inventory.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Python</li>
+					<li>JavaScript</li>
+					<li>HTML</li>
+					<li>Unix</li>
+					<li>Java</li>
+					<li>Docker</li>
+					<li>GIT</li>
+					<li>C++</li>
+					<li>Flask</li>
+					<li>SQL</li>
+					<li>MongoDB</li>
+					<li>C#</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>University of Oregon</h2>
+					<p class="subDetails">2018-2020</p>
+					<p>Current Senior. Pursing an Bachelor's degree with a major in Computer Science and minor in Mathematics. Dean's list student with a 3.72 departmental GPA.</p>
+				</article>
+
+				<article>
+					<h2>Gonzaga University</h2>
+					<p class="subDetails">2016-2018</p>
+					<p>Studied at Gonzaga for two years before transferring to University of Oregon. Deans list student and Computer Science major.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+        <section>
+            <div class="sectionTitle">
+				<h1>Relevant Coursework</h1>
+			</div>
+
+			<div class="sectionContent">
+				<ul class="coursework">
+					<li>Computer Science I</li>
+					<li>Computer Science II</li>
+					<li>Intermediate Algorithms</li>
+					<li>Abstract Data Structures</li>
+					<li>Introduction to Software Engineering</li>
+					<li>Principals of Programming Languages</li>
+					<li>Game Programming</li>
+					<li>Microcomputer Architecture & Assembly Language</li>
+					<li>Intro to Digital Logic</li>
+					<li>Discrete Mathematics</li>
+					<li>Linear Algebra</li>
+					<li>Calculus 1, 2, and 3</li>
+					<li>Statistics</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+        </section>
+
+
+        <section>
+            <div class="sectionTitle">
+                <h1>Projects</h1>
             </div>
-        </div>
-    </header>
 
-    <!--education and skills-->
-    <section class="education">
+            <div class="sectionContent">
+								<article>
+										<h2><a href="https://github.com/ryan-moll/CIS322-Final-Project">Brevet Checkpoint Calculator</a></h2>
+										<p>Flask web server built for my Software Engineering class which hosted a calculator that generated checkpoint times for a Brevet bicycling event given a start time, checkpoint distances, and a total distance. Data submitted to the calculator was stored in a database using MongoDB and was accessible through token protected RESTful APIs that I created. To access these APIs, a user could register an account, thus generating a token. User data including the username and hashed password were stored in a separate database with MongoDB as well. The entire project was packaged with Docker.</p>
+								</article>
 
-        <div class="container about">
-            <div class="text-center">
-                <i class="fa fa-graduation-cap fa-4x icons"></i>
-                <h2><b>Education</b></h2>
-                <h3>University of Oregon</h3>
-                <p class="lead">
-                    <b>Computer and Information Sciences</b>
-                </p>
+								<article>
+										<h2><a href="https://github.com/Pdxcameron/cis410_The-grappler-origins">The Grappler PC Game</a></h2>
+										<p>The Grappler is a first person style puzzle game I made using Unity. I collaborated with two other developers using Git, and the code was all in Mono, the Unity variant of C#.</p>
+								</article>
+
+                <article>
+                    <h2><a href="https://github.com/ryan-moll/SNKRSbot">SNKRS Tweeter</a></h2>
+                    <p>A Python based twitter bot that tweets an up-to-date list of upcoming Nike sneakers using web scraping with beautifulSoup and the Twitter API.</p>
+                </article>
+
+                <article>
+                    <h2>IZON</h2>
+                    <p>Fitbit awareness tracker built for DemonHacks hackathon that warns you if you fall asleep at the wheel.</p>
+                </article>
+
+                <article>
+                    <h2>Supreme Bot</h2>
+                    <p>Chrome extension that automates the purchase process on the Supreme website. Built primarily with Javascript.</p>
+                </article>
             </div>
-        </div>
-        <br>
-        <div>
-            <div class="text-center">
+            <div class="clear"></div>
+        </section>
 
-                <i class="fa fa-code fa-4x icons"></i>
-                <h2><b>Skills</b></h2>
-                <h3>Coding Languages</h3>
-                <p>
-                    <code>C++</code>, <code>SQL</code>, <code>html</code>, <code>C#</code>, <code>CSS</code>, <code>VBA</code>
-                </p>
-            </div>
-        </div>
-        <br>
-        <div class="container about">
-            <div class="text-center">
+				<section>
+						<div class="sectionContent" style="font-size:10px" align="right">
+								Spaces > Tabs
+						</div>
+						<div class="clear"></div>
+				</section>
 
-                <i class="fa fa-book fa-4x icons"></i>
-                <h2><b>Courses</b></h2>
-                <h3>Computer Science</h3>
-                <p>
-                    Computer Science I, Computer Science II, Algorithms and Abstract Data Structures, Discrete Mathematics
-                </p>
-                <h3>Computer Engineering</h3>
-                <p>
-                    Microcomputer Architecture & Assembly Language, Intro to Digital Logic
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!--experience-->
-    <section class="experience">
-        <div class="container">
-                <div class="jumbotron", style="background-color:#aaa69d;">
-                <div class="text-center">
-                    <i class="fa fa-laptop fa-4x icons"></i>
-                    <h2 class="major">Experience</h2>
-                    <h3>BlueVolt Learning Management Systems Intern</h3>
-                    <h5><i>Summer 2016/Summer 2018</i></h5>
-                    <ul class="list-unstyled">
-                        <li>
-                           • Collaborated with a team of 6 developers to work on software and meet deadlines.
-                        </li>
-                        <li>
-                           • Worked on projects for the codebase primarily in <code>C#</code> and <code>HTML</code>, in addition to working with excel and data organization.
-                        </li>
-                    </ul>
-                    <h3>Nike Company Store</h3>
-                    <h5><i>Summer 2017</i></h5>
-                    <ul class="list-unstyled">
-                        <li>
-                           • Worked with a team of over 400 employees to provide service at the highest profit Nike store in North America.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="projects">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="major">Projects</h2>
-
-                <i class="fa-5x s_icons text-center">S</i>
-                <h3>Supreme web bot</h3>
-                <h5><i>Fall 2017</i></h5>
-                <p class="lead">Javascript web scraper/purchase bot</p>
-                <ul class="list-unstyled">
-                    <li>
-                        • Created a bot that buys merchandise from the Supreme website automatically
-                    </li>
-                    <li>
-                        • Built a <code>Javascript</code> extension that automatically scrapes the website, finds <br>
-                        the right fields to click, and purchases the item faster than a human could<br>
-                        allowing for buying of products before they sell out.
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </section>
-
-    <!--Footer-->
-    <footer>
-        <div class="container">
-            <div id="footer-content" class="text-center">
-                <small>&copy; 2018, Ryan Moll </small>
-            </div>
-        </div>
-    </footer>
-
+	</div>
+</div>
 </body>
 </html>
