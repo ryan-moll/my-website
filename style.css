@@ -75,12 +75,12 @@ p {
 
 #contactDetails ul {
 	list-style-type: none;
-	font-size: 0.9em;
+	font-size: 1.0em;
 	margin-top: 2px;
 }
 
 #contactDetails ul li {
-	margin-bottom: 3px;
+	margin-bottom: 5px;
 	color: #444;
 }
 
